@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio - Shynta Octavia</title>
+	<link rel="icon" type="image/x-icon" href="images/logoicon.ico" />
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
+
+</head>
+<body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			<!--top-nav---->
+			<div class="logo">
+				<a href="portfolio.html"><h3>Portfolio</h3></a>
+			</div>
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">        					                         
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home"><span>Home</span></a></li>
+										<li><a class="scroll" href="#about"><span>About Me</span></a></li>
+										<li><a class="scroll" href="#portfolio"><span>Portfolio</span></a></li>
+										<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+			</div>
+			<!---start-click-drop-down-menu----->
+			        <!----start-dropdown--->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			<!---//End-click-drop-down-menu----->
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-left">
+				<img src="images/fotoprofil.png" alt=""/>
+			</div>
+			<div class="banner-right">
+				<h2>SHYNTA OCTAVIA</h2>
+				<div class="border"></div>
+				<h2>College Student - Freelancer</h2>
+				<!--<a href="#">DOWNLOAD MY RESUME</a-->
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--/header-banner-->
+<!--about-->
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>ABOUT ME</h3>
+		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+		<p>I am a college student at National University. Graduated from 24 Senior High School in 2017, after that I continued my academic field by taking Web Development Professional Program at CCIT-Faculty of Engineering University of Indonesia for 2 years and successfully graduated in 2019 with certification.</p>
+		<p>During taking the Professional Program at CCIT I gained experience in creating several website-based programs, besides that I had an internship at Haistar Warehouse as an Admin of Online Marketplace for a month. Apart from being a college student, currently I am a freelancer at Nation Insight (Research Company) as a Field Agent.</p>
+		
+	</div>
+</div>
+<!--//about-->
+<div class="about-back"></div>
+<!--my skill-->
+<div class="my-skills text-center">
+	<div class="container">
+		<h3>THINGS THAT I CAN DO</h3>
+		<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
+		<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center">						
+						<p>Teamwork</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<p>Communication</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<p>Speaking Presentation</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<p>Operating Computer</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<p>Basic of Microsoft Office</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<p>Basic of HTML, CSS, SQL Database</p>
+					</div>					
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [
+										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
+									];
+								for (var i = 1; i <= 7; i++) {
+									var child = document.getElementById('circles-' + i),
+										percentage = 30 + (i * 10);
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   	percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+						
+				</script>
+		</div>
+	</div>	
+</div>
+<!--//my skill-->
+<div class="my-skill-back"></div>
+<!--education-->
+<div class="education text-center">
+	<div class="container">
+		<div class="edu-info">
+			<h3>EDUCATION</h3>
+		</div>
+		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
+		<div class="edu-grids">
+			<div class="col-md-4 edu-grid">
+				<p>2019 - Present</p><span>Graduated</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>COLLEGE</h3>
+						<h4>UNIVERSITAS NASIONAL</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>Majors of System Information</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>2017 - 2019</p><span>Graduated</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>PROFESSIONAL PROGRAM</h3>
+						<h4>CEP CCIT - FAKULTAS TEKNIK, UNIVERSITAS INDONESIA</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>Majors of Technology Information (Web Development)</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>2014 - 2017</p><span>Graduated</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>SENIOR HIGH SCHOOL</h3>
+						<h4>SMA NEGERI 24 JAKARTA</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>Natural Science Program</h5>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+</div>
+<!--//education-->
+<div class="strip-border"><p></p></div>
+<!--work-->
+<div class="work-experience text-center">
+	
+	<div class="container">
+		<div class="work-info">
+			<h3>EXPERIENCE</h3>
+		</div>
+		<div class="strip text-center"><img src="images/work.png" alt=" "/></div>
+		<div class="work-grids">
+			<div class="col-md-4 w-grid">
+				<div class="work-grid">
+					<h3>April 2020 - Present</h3>
+					<div class="work-grid-info">
+						<h4>Field Agent</h4>
+						<h5>Freelancer</h5>
+						<p>at NATION INSIGHTS</p>
+						<p>(Market Research)</p><br>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 w-grid">
+				<div class="work-grid">
+					<h3>August 2019 - September 2019</h3>
+					<div class="work-grid-info">
+						<h4>Admin of Online Marketplace</h4>
+						<h5>Intership</h5>
+						<p>at HAISTAR</p>
+						<p>(E-Logistics Warehouse)</p><br>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 w-grid">
+				<div class="work-grid">
+					<h3>2017 - 2019</h3>
+					<div class="work-grid-info">
+						<h4>Make a Web Application Projects With Team</h4>
+						<h5>CEP CCIT - Faculty of Engineering, University of Indonesia</h5>
+						<p>Using HTML 5, CSS, PHP, C#, ASP.NET, SQL Database</p>
+					</div>
+				</div>
+			</div>			
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//work-->
+<div class="services-back"></div>
+
+
+<!--portfolio-->
+<div class="gallery-section text-center" id="portfolio">
+	<div class="container">
+		<h3>PORTFOLIO</h3>
+		<div class="strip text-center"><img src="images/port.png" alt=" "/></div>
+		<p></p>
+		<div class="gallery-grids">
+			<div class="top-gallery">
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href=""><img src="images/barbarhut2.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>BARBAR HUT</h4>
+							<p>Web Design</p>
+							<div class="button"><a href="images/barbarhut_.jpg" class="swipebox">VIEW</a></div>
+						</div>				
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/barbarhut3_.jpg" class="swipebox"><a href="images/barbarhut4_.jpg" class="swipebox"><a href=""><img src="images/hohoproject2.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>HOHO Project</h4>
+							<p>Web Design</p>
+							<div class="button"><a href="images/hohoproject_.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/delicious_.jpg" class="swipebox"><a href="images/delicious4_.jpg" class="swipebox"><a href="images/delicious5_.jpg" class="swipebox"><a href=""><img src="images/delicious2.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>D'LICIOUS</h4>
+							<p>Web Design</p>
+							<div class="button"><a href="images/delicious3_.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href=""><img src="images/tabunganq2.png" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>TABUNGAN-Q</h4>
+							<p>Web Design</p>
+							<div class="button"><a href="images/tabunganq.png" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href=""><img src="images/ppv22.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>APLIKASI PERPUSTAKAAN</h4>
+							<p>Program Aplication</p>
+							<div class="button"><a href="images/ppv2_.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/ppv24_.jpg" class="swipebox"><a href="images/ppv25_.jpg" class="swipebox"><a href="images/ppv26_.jpg" class="swipebox"><a href=""><img src="images/m-class2.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>M-CLASS</h4>
+							<p>Web Design</p>
+							<div class="button"><a href="images/m-class_.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>		
+				<div class="clearfix"> </div>
+			</div>
+				<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+		</div>
+	</div>
+</div>
+<!--//portfolio-->
+
+<!--testimonials-->
+<div class="testimonials" id="testimonial">
+	<div class="container">
+		<h3>CERTIFICATE</h3>
+		<div class="strip text-center"><img src="images/test.png" alt=" "/></div>
+			<!-- responsiveslides -->
+					<script src="js/responsiveslides.min.js"></script>
+						<script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							 // Slideshow 4
+							$("#slider3").responsiveSlides({
+								auto: true,
+								pager: false,
+								nav: true,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+							$('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+								$('.events').append("<li>after event fired.</li>");
+								}
+								});
+								});
+						</script>
+			<!-- responsiveslides -->
+			<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/s10.jpeg" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>Program Professional - Technology Information</p>
+									<h4>CEP CCIT - Faculty of Engineering, University of Indonesia</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/s7.jpg" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>Participant</p>
+									<h4>Seminar of Development & Implementation Artificial In Era of Industrial Revolution 4.0 and Society 5.0</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/s2.jpg" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>Exhibitor</p>
+									<h4>The Student's Project Exhibition of The Welcome Freshmen CEP CCIT FTUI 2018</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/s8.jpg" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>Participant</p>
+									<h4>Seminar Strategi Menjadi Technopreneur</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/s9.jpg" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>Participant</p>
+									<h4>Seminar of Why We Should Learn Python</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/s5.jpg" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>Participant</p>
+									<h4>Seminar of How To Be A Data Analyst</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/s11.jpg" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>Participant</p>
+									<h4>Seminar of UI/UX Fundamental And Build A Project With Figma</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/s12.jpg" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>Participant</p>
+									<h4>Seminar of Grow With Google - Pelatihan Online Perluas Kehadiran Online Anda Dengan Strategi Bisnis Yang Tepat</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/s13.jpg" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>Crew - Dana Usaha</p>
+									<h4>Sistem Informasi Festival 2020</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/s14.jpg" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>Participant</p>
+									<h4>Seminar of Cyber Education 5.0</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/s15.jpg" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>Participant</p>
+									<h4>Seminar of Get To Know UI/UX 2020</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/s16.jpg" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>Participant</p>
+									<h4>Seminar Mengenal Teknologi Jaringan Mikrotik. Economical, Easy & Fun</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/s17.jpeg" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>Crew - UNAS TV</p>
+									<h4>Pelatihan Anggota Baru Laboratorium Televisi Universitas Nasional Periode 2020/2021</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+					</ul>
+			</div>
+			
+	</div>
+</div>
+<!--testimonials-->
+
+<div class="contact-back"></div>
+<!--contact-->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="contact-info text-center">
+			<h3>CONTACT</h3>
+			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
+		</div>
+		<div class="contact-grids">
+			<div class="col-md-5 contact-left">			
+				<div class="stripb"></div>
+				<dl>
+				 <dt><h3>Address</h3></dt>
+				 <dd><h4>&#9729; Budi Raya Street No 81</h4></dd>
+				 <dd><h4>Kebon Jeruk, 11530</h4></dd>
+				 <dd><h4>West Jakarta, Indonesia</h4></dd><br>
+				 <dt><h3>Phone</h3></dt>
+				 <dd><h4>&#9743; +62 877-3885-8231</h4></dd><br>
+				 <dt><h3>Email Address</h3></dt>
+				 <dd><h4><a href="mailto:shynta.octavia03@gmail.com">&#9993; shynta.octavia03@gmail.com</a></h4></dd>
+				 </dl>			
+				
+				<div class="stripb"></div>		
+			</div>			
+			<div class="clearfix"></div>
+		</div>		
+	</div>
+</div>
+<!--//contact-->
+<div class="footer-top"></div>
+<!--resume-->
+<div class="resume text-center">
+	<div class="container">
+		<div class="strip text-center"><a href="#"><img src="images/down.png" alt=" "/></a></div>
+		<div class="down"><a href="https://drive.google.com/file/d/1bc7FQ9rVwpfVhN_nXhuRm5Byo8XGXani/view?usp=sharing">Download CV</a></div>
+	</div>
+</div>
+<!--//resume-->
+
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<p>Copyright &copy; 2021 - Shynta Octavia <!--a href="http://w3layouts.com/"> W3layouts</a--></p>
+	</div>
+</div>
+<!--//footer-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
